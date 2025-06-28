@@ -25,38 +25,29 @@ pip install jtorch==0.1.7
 pip install -r requirements.txt
 ```
 ## Replication Process
-### `Step 1: Clone the Repository`
-### `Step 2: Prepare the dataset`
-`cd data_prepare`
+```bash
+# Step 1: Prepare the dataset
+cd data_prepare
+bash create_datasets.sh
+cd ..
 
-`bash create_datasets.sh`
+# Step 2: Download pretrained model checkpoints
+bash download_pretrain_checkpoints.sh
 
-`cd ..`
+# Step 3: Start fine-tuning
+bash finetune.sh
 
-### `Step 3: Download pretrained model checkpoints`
+# Step 4: Run inference (generate outputs)
+bash run_inference.sh
 
-`bash download_pretrain_checkpoints.sh`
+# Step 5: Download official evaluation scripts (BLEU / METEOR / NIST, etc.)
+cd eval
+bash download_evalscript.sh
+cd ..
 
-### `Step 4: Start fine-tuning`
-
-`bash finetune.sh`
-
-### `Step 5: Run inference (generate outputs)`
-
-`bash run_inference.sh`
-
-### `Step 6: Download official evaluation scripts (BLEU / METEOR / NIST, etc.)`
-
-`cd eval`
-
-`bash download_evalscript.sh`
-
-`cd ..`
-
-### `Step 7: Run evaluation script`
-
-`bash run_metric.sh`
-
+# Step 6: Run evaluation script
+bash run_metric.sh
+```
 
 ##  Alignment with PyTorch Implementation
 ![pytorch.png](figures/LoRA_GPT2.PNG)
