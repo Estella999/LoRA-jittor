@@ -1,6 +1,6 @@
 #  LoRA-based Fine-tuning with Jittor
 
-This project implements parameter-efficient fine-tuning of GPT/LLaMA-like models using the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) framework, with PyTorch compatibility provided by JTorch. It supports complete pipelines for data preparation, training, inference, and evaluation.
+This project implements parameter-efficient fine-tuning of GPT-like models using the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) framework, with PyTorch compatibility provided by JTorch. It supports complete pipelines for data preparation, training, inference, and evaluation.
 
 ---
 
