@@ -21,6 +21,8 @@ pip install jittor==1.3.8.5
 
 # Install JTorch (PyTorch API compatibility layer for Jittor)
 pip install jtorch==0.1.7
+
+pip install -r requirements.txt
 ```
 ## Replication Process
 ### `Step 1: Clone the Repository`
