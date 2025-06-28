@@ -57,7 +57,7 @@ pip install jtorch==0.1.7
 
 
 ##  Alignment with PyTorch Implementation
-![pytorch.png](figures/LoRA_GPT.png)
+![pytorch.png](figures/LoRA_GPT2.PNG)
 To ensure correctness and performance, we compared our Jittor+LoRA implementation with the PyTorch baseline under identical configurations.
 
 | Framework | BLEU  | NIST  | METEOR | ROUGE_L | CIDEr|
@@ -68,7 +68,7 @@ To ensure correctness and performance, we compared our Jittor+LoRA implementatio
 
 ###  Loss and PPL curves
 
-![training_loss.png](figures/train_avgloss.png)
+![training_loss.png](figures/train_avg_loss.png)
 ![training_PPL.png](figures/train_ppl.png)
 ![training_ms_batch.png](figures/train_ms_batch.png)
 
