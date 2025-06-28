@@ -1,0 +1,15 @@
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_setup.py:_flush():81] Current SDK version is 0.20.1
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_setup.py:_flush():81] Configure stats pid to 9788
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_setup.py:_flush():81] Loading settings from /root/.config/wandb/settings
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_setup.py:_flush():81] Loading settings from /root/autodl-tmp/Jittor-Lora/e2e_replication/wandb/settings
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /root/autodl-tmp/Jittor-Lora/e2e_replication/wandb/offline-run-20250628_112714-70r6gbdb/logs/debug.log
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /root/autodl-tmp/Jittor-Lora/e2e_replication/wandb/offline-run-20250628_112714-70r6gbdb/logs/debug-internal.log
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_init.py:init():831] calling init triggers
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0002, 'architecture': 'gpt2.md', 'dataset': 'E2E', 'epochs': 5, 'lora_dim': 4, 'lora_alpha': 32, 'lora_dropout': 0.1, 'adam_beta2': 0.999, 'weight_decay': 0.01, '_wandb': {}}
+2025-06-28 11:27:14,690 INFO    MainThread:9788 [wandb_init.py:init():872] starting backend
+2025-06-28 11:27:14,954 INFO    MainThread:9788 [wandb_init.py:init():875] sending inform_init request
+2025-06-28 11:27:14,966 INFO    MainThread:9788 [wandb_init.py:init():883] backend started and connected
+2025-06-28 11:27:14,968 INFO    MainThread:9788 [wandb_init.py:init():956] updated telemetry
+2025-06-28 11:27:14,969 INFO    MainThread:9788 [wandb_init.py:init():980] communicating run to backend with 90.0 second timeout

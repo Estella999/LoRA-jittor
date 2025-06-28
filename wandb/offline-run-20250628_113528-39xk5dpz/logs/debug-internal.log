@@ -1,0 +1,8 @@
+{"time":"2025-06-28T11:35:28.895092116+08:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/root/autodl-tmp/Jittor-Lora/e2e_replication/wandb/offline-run-20250628_113528-39xk5dpz/logs/debug-core.log"}
+{"time":"2025-06-28T11:35:29.009622292+08:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-06-28T11:35:29.009732445+08:00","level":"INFO","msg":"stream: created new stream","id":"39xk5dpz"}
+{"time":"2025-06-28T11:35:29.009750403+08:00","level":"INFO","msg":"stream: started","id":"39xk5dpz"}
+{"time":"2025-06-28T11:35:29.00978516+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"39xk5dpz"}
+{"time":"2025-06-28T11:35:29.009802111+08:00","level":"INFO","msg":"sender: started","stream_id":"39xk5dpz"}
+{"time":"2025-06-28T11:35:29.009827688+08:00","level":"INFO","msg":"handler: started","stream_id":"39xk5dpz"}
+{"time":"2025-06-28T11:35:29.016192063+08:00","level":"INFO","msg":"Starting system monitor"}

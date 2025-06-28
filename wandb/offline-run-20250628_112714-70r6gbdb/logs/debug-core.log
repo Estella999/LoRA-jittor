@@ -1,0 +1,8 @@
+{"time":"2025-06-28T11:27:14.772592521+08:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpbcmdsqay/port-9788.txt","pid":9788,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-06-28T11:27:14.77372966+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":45135,"Zone":""}}
+{"time":"2025-06-28T11:27:14.773768743+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":9788}
+{"time":"2025-06-28T11:27:14.953691644+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:35086"}
+{"time":"2025-06-28T11:27:14.969557301+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"70r6gbdb","id":"127.0.0.1:35086"}
+{"time":"2025-06-28T11:27:15.086335781+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"70r6gbdb","id":"127.0.0.1:35086"}
+{"time":"2025-06-28T11:27:15.086992715+08:00","level":"WARN","msg":"connection: Respond: attempt to send response on closed connection","id":"127.0.0.1:35086"}
+{"time":"2025-06-28T11:27:15.376752851+08:00","level":"INFO","msg":"Parent process exited, terminating service process."}
