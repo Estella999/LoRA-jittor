@@ -32,7 +32,7 @@ bash create_datasets.sh
 cd ..
 
 # Step 2: Download pretrained model checkpoints
-bash download_pretrain_checkpoints.sh
+bash download_pretrained_checkpoints.sh
 
 # Step 3: Start fine-tuning
 bash finetune.sh
