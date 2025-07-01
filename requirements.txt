@@ -17,6 +17,6 @@ setuptools==39.0.1
 six==1.17.0
 scikit-image==0.21.0
 tabulate==0.8.7
-tensorflow
 tf_slim==1.1.0
 tqdm==4.67.1
+wandb
